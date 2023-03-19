@@ -1,13 +1,15 @@
-let a = prompt("Nhập a");
+    //nhập a,b,c vào
+    let a = prompt("Nhập a");
     let a1 = parseInt(a);
     let b = prompt("Nhập b");
     let b1 = parseInt(b);
     let c = prompt("Nhập c");
     let c1 = parseInt(c);
-
+   // sử dụng câu lệnh đk 
     if (a == 0) {
     if (b == 0) {
     if (c == 0) {
+      //in ra màn hình
       document.write("phuong trinh vo so nghiem");
     } else {
       document.write("phuong trinh vo nghiem");

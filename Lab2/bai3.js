@@ -10,7 +10,7 @@ ho =hoten.substring(0,x) ;
 tendem = hoten.substring(x,y);
 ten = hoten.substring(y,hoten.length);
 
-if (gioitinh=="Nam") tendem = "Văn"
+if (gioitinh=="Nam") tendem = "Văn=" 
 else tendem = "Vẽ"
 //in ra màn hình 
 document.write(ho);
