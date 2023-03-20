@@ -13,10 +13,10 @@ chucnang= Number(chucnang);
 switch (chucnang) {
     case 1:
         var diem=(toan+hoa+ly+sinh)/4;
-        alert("diem trung binh la"+diem);
+        alert("điểm trung bình là :"+diem);
         
     case 2:
-        var chucnang = prompt("chucnang");
+        var chucnang = prompt("chức năng");
         chucnang= Number(chucnang);
     if ( diem<=10 && diem>=9 ) {
         alert("giỏi");
