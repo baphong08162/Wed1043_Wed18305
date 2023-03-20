@@ -14,7 +14,7 @@ switch (chucnang) {
     case 1:
         var diem=(toan+hoa+ly+sinh)/4;
         alert("điểm trung bình là :"+diem);
-        
+       
     case 2:
         var chucnang = prompt("chức năng");
         chucnang= Number(chucnang);
@@ -30,8 +30,8 @@ switch (chucnang) {
     break;
     case 0:
         alert("thoat chuong trinh");
-
         break;
+    
 }
 
   
