@@ -1,8 +1,8 @@
+// khai bao diem
 var toan=prompt("điểm toán");
 var ly =prompt("điểm lý");
 var hoa=prompt("điểm hóa ");
 var sinh=prompt("điểm sinh");
-
 var chucnang = prompt("Vui lòng chọn chức năng");
 ly= Number(ly);
 toan= Number(toan);

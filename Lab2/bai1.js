@@ -9,7 +9,7 @@
     if (a == 0) {
     if (b == 0) {
     if (c == 0) {
-      //in ra màn hình
+    //in ra màn hình
       document.write("phuong trinh vo so nghiem");
     } else {
       document.write("phuong trinh vo nghiem");

@@ -10,6 +10,7 @@ document.write("Tam giác đều");
    } else if (a === b || b === c || c === a) {
 document.write("Tam giác cân");
    } else if (Math.pow(a, 2) + Math.pow(b, 2) === Math.pow(c, 2) ||
+   // Phương thức Math.pow() trả về giá trị của x lũy thừa của y (x y ).
         Math.pow(a, 2) + Math.pow(c, 2) === Math.pow(b, 2) ||
         Math.pow(b, 2) + Math.pow(c, 2) === Math.pow(a, 2)) {
 document.write("Tam giác vuông");
