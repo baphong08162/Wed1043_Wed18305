@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+}
+.wrappr{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.btnrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 10px;
+
+}
+.btn{
+    padding: 3px 15px 3px 15px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    box-shadow: 3px 3px 3px rgb(red, green, blue)
+    
+}
+.btn:hover{
+    background-color: rgba(red, green, blue, alpha);
+
+}
+.row{
+    display: grid;
+    
+}
