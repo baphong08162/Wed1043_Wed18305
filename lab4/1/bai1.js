@@ -12,8 +12,8 @@ class student {
         return this.first_name + " " + this.last_name;
     }
     getAge(){
-        const currentYear = new Date().getFullYear()
         let birthYear = parseInt(this.dob);
+        const currentYear = new Date().getFullYear()
         return currentYear-birthYear;
     }
 }

@@ -1,30 +1,39 @@
-.title{
-    text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.wrappr{
-    margin-bottom: 5px;
-    margin-top: 20px;
-}
-.btnrow{
+body{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-top: 10px;
-
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: burlywood;
+    font-weight: bold;
 }
-.btn{
-    padding: 3px 15px 3px 15px;
-    background-color: green;
+h3{
+    text-align: center;
+    color:burlywood;
+}
+h4{
+    color:burlywood
+}
+input{
+    border-color:black;
+    width: 240px;
+    height: 25px;
+    margin: 10px 0px 10px;
+}
+textarea{
+    margin: 10px 0px 10px;
+    border-color:burlywood;
+}
+button{
+    height: 30px;
+    width: 50px;
     color: white;
-    border: 0px;
-    box-shadow: 3px 3px 3px rgb(red, green, blue)
-    
-}
-.btn:hover{
-    background-color: rgba(red, green, blue, alpha);
-
-}
-.row{
-    display: grid;
-    
+    background-color: burlywood;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: white;
 }
