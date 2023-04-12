@@ -96,6 +96,7 @@ html{
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    
   }
   
   .dot {
@@ -175,6 +176,10 @@ html{
     border-radius: 10px;
     margin-bottom: 50px;
 }
+#list-products .item:hover {
+   box-shadow: 5px 5px 5px blue;
+}
+
 
 #list-products .item img {
     display: block;
