@@ -1,5 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
-    padding:0;
+    padding:0; 
     margin:0;
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
@@ -29,9 +32,98 @@
 }
 
 #menu .item a {
-    color:#626A67;
     text-decoration: none;
+    border:none;
+    color:black;
+    ;
 }
+#menu .item1 a {
+    margin:0px 25px;
+    text-decoration: none;
+    color:orangered;
+    
+    
+}
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
 
 
 #actions {
@@ -42,69 +134,8 @@
     margin-left:22px;
 }
 
-#banner {
-    width: 100%;
-    background-image :url("image/banner.png");
-    height: 463px;
-    margin-top:40px;
-    display: flex;
-    padding:0px 133px;
-    position:relative;
-}
-
-#banner .box-left ,#banner .box-right {
-    width: 50%;
-}
-
-#banner  .box-left h2 {
-    font-size:48px;
-    margin-top:75px;
-    color:#fff;
-}
-
-#banner .box-left p {
-    color:#D0D0D0;
-}
-
-#banner .box-left button {
-    width: 191px;
-    height: 40px;
-    margin-top:41px;
-    background:#1d1a1a;
-    border:none;
-    outline:none;
-    color:#fff;
-    font-weight: bold;
-    border-radius: 20px;
-    transition:0.4s;
-}
-
-#banner .box-left button:hover {
-    background:orange;
-}
-
-#banner .box-right {
-    padding-left:200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#banner .box-right img {
-    margin:0px 10px;
-    animation :animation 3s infinite linear; 
-}
 
 
-#banner .box-right img:nth-child(1)
-{
-    animation-delay: 0.5s;
-}
-#banner .box-right img:nth-child(2)
-{
-    
-    animation-delay: 1s;
-}
 .to-bottom {
     position:absolute;
     bottom:-40px;
